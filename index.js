@@ -18,8 +18,6 @@ let userProfile = () =>{
         console.log(data.results[0].name.last);
         console.log(data.results[0].picture.meduim);
         console.log(data.results[0].location.street);    
-
-        email.textContent = `${data.results[0].email}`
     
     })
 }
